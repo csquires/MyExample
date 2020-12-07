@@ -1,0 +1,13 @@
+name = "MyExample"
+uuid = "b8cae333-4336-4c87-99cf-d6c0013e11c4"
+authors = ["Chandler Squires"]
+version = "0.1.0"
+
+[compat]
+julia = "1.5"
+
+[extras]
+Test = "8dfed614-e22c-5e08-85e1-65c5234f0b40"
+
+[targets]
+test = ["Test"]
